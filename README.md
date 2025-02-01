@@ -146,6 +146,10 @@ For the second example with padding and a border, the output will look like this
   ---------------------------
   ```
 
+## Demo
+![image](https://github.com/user-attachments/assets/5976eccf-62bf-4743-a501-ff79866f05cf)
+
+
 ## **License**
 
 This package is licensed under the MIT [License](./LICENSE).
