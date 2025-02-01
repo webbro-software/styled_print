@@ -1,3 +1,4 @@
+LICENSE
 README.md
 setup.py
 src/styled_print/__init__.py
