@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/styled_print/__init__.py
+src/styled_print/core.py
+src/styled_print.egg-info/PKG-INFO
+src/styled_print.egg-info/SOURCES.txt
+src/styled_print.egg-info/dependency_links.txt
+src/styled_print.egg-info/requires.txt
+src/styled_print.egg-info/top_level.txt
+test/test.py
