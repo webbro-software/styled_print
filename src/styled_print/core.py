@@ -15,17 +15,17 @@ def styled_print(string, options):
     elif lowercase:
         string = string.lower()
 
-    styled_text = f"{' ' * padding}{string}{' ' * padding}"
+    string = f"{' ' * padding}{string}{' ' * padding}"
 
     if align == "center":
         string = string.center(50) 
     elif align == "right":
         string = string.rjust(50)
-    
+
     styled_text = colored(string, color, on_color=bg_color, attrs=styles)
 
     if border:
-        border_line = "-" * (len(styles) + 4)
+        border_line = "-" * (len(string) + 4)
         print(border_line)
         print(f"| {styled_text} |")
         print(border_line)
