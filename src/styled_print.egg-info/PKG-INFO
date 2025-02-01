@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: styled_print
-Version: 0.1.1
+Version: 0.1.3
 Summary: A flexible terminal text styling utility for color, background, and custom formatting options.
 Home-page: https://github.com/webbro-software/styled_print
 Author: Usmonov Shoxruxmirzo
@@ -160,6 +160,10 @@ For the second example with padding and a border, the output will look like this
   | bordered text          |
   ---------------------------
   ```
+
+## Demo
+![image](https://github.com/user-attachments/assets/5976eccf-62bf-4743-a501-ff79866f05cf)
+
 
 ## **License**
 
