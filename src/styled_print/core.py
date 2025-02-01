@@ -23,3 +23,11 @@ def styled_print(string, options):
         string = string.rjust(50)
     
     styled_text = colored(string, color, on_color=bg_color, attrs=styles)
+
+    if border:
+        border_line = "-" * (len(styles) + 4)
+        print(border_line)
+        print(f"| {styled_text} |")
+        print(border_line)
+    else:
+        print(styled_text)
