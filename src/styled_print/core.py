@@ -1,3 +1,5 @@
+from termcolor import colored
+
 def styled_print(string, options):
     color = options.get("color")
     styles = options.get("styles", [])
@@ -12,3 +14,12 @@ def styled_print(string, options):
         string = string.upper()
     elif lowercase:
         string = string.lower()
+
+    styled_text = f"{' ' * padding}{string}{' ' * padding}"
+
+    if align == "center":
+        string = string.center(50) 
+    elif align == "right":
+        string = string.rjust(50)
+    
+    styled_text = colored(string, color, on_color=bg_color, attrs=styles)
