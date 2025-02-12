@@ -153,3 +153,7 @@ For the second example with padding and a border, the output will look like this
 ## **License**
 
 This package is licensed under the MIT [License](./LICENSE).
+
+---
+
+[![PyPI Downloads](https://static.pepy.tech/badge/styled-print)](https://pepy.tech/projects/styled-print)
